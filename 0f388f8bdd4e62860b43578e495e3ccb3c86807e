@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baada198_ad26cb66",
+        "filename": "murano.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-10-14T14:29:22Z",
+      "side": 1,
+      "message": "For Delorean builds, you need to use %{upstream_version} macro which is set by delorean after creating sdist tarball from git:\n\nhttps://www.rdoproject.org/packaging/rdo-packaging.html#_differences_between_master_and_rawhide_packaging",
+      "revId": "0f388f8bdd4e62860b43578e495e3ccb3c86807e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baada198_4d00cfaa",
+        "filename": "murano.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-10-14T14:29:22Z",
+      "side": 1,
+      "message": "subpackage definition should be moved up, before all prep/build... sections",
+      "revId": "0f388f8bdd4e62860b43578e495e3ccb3c86807e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baada198_6d0593c1",
+        "filename": "murano.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-10-14T14:29:22Z",
+      "side": 1,
+      "message": "same as in client review, keep %changelog empty",
+      "revId": "0f388f8bdd4e62860b43578e495e3ccb3c86807e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
